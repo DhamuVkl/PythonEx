@@ -1,0 +1,111 @@
+{
+    "workbench.colorTheme": "Theme",
+    "files.autoSave": "afterDelay",
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": false,
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.tabs.defaultColor": "terminal.ansiGreen",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#22a17b",
+        "statusBar.foreground": "#000000",
+        "activityBar.background": "#22a17b",
+        "activityBar.foreground": "#000000",
+        "activityBar.activeBorder": "#ffe600",
+        "tab.activeBorder": "#ffe600",
+        "tab.activeForeground": "#ffffffd0",
+        "list.activeSelectionBackground": "#22a17b",
+        "list.activeSelectionForeground": "#000000",
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "keyword.control.flow.python",
+                "settings": {
+                    "foreground": "#f0ca61",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "constant.numeric.dec.python",
+                "settings": {
+                    "foreground": "#3faf8d",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "constant.numeric.float.python",
+                "settings": {
+                    "foreground": "#3faf8d",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "constant.language.python",
+                "settings": {
+                    "foreground": "#ea00ff",
+                    "fontStyle": "italic bold"
+                }
+            },
+            {
+                "scope": [
+                    "source.python",
+                    "variable.parameter",
+                    "meta.function-call.python meta.function-call.arguments.python",
+                    "meta.fstring.python",
+                ],
+                "settings": {
+                    "foreground": "#2ac5da",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": [
+                    "meta.function-call.generic.python",
+                    "entity.name.function",
+                ],
+                "settings": {
+                    "foreground": "#f7087f",
+                    "fontStyle": ""
+                } // ba35db
+            },
+            {
+                "scope": "support.function.builtin.python",
+                "settings": {
+                    "foreground": "#eeb79e",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "storage.type",
+                "settings": {
+                    "foreground": "#5425fd",
+                    "fontStyle": "italic bold"
+                }
+            },
+            {
+                "scope": [
+                    "string",
+                    "support.type.property-name.json"
+                ],
+                "settings": {
+                    "foreground": "#eeebeb",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "constant.character.escape",
+                "settings": {
+                    "foreground": "#FF657A",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "punctuation",
+                "settings": {
+                    "foreground": "#ff0728",
+                    "fontStyle": ""
+                }
+            }
+        ]
+    }
+}
